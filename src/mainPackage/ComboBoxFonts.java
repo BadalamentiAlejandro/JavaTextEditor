@@ -14,6 +14,7 @@ public class ComboBoxFonts {
 	
 	public ComboBoxFonts() {
 		
+		//-----------FONTS SUPPORTED FOR EACH SYSTEM------------
 		localFontFamily = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
 		
 		comboBoxFamily = new JComboBox<String>(localFontFamily);

@@ -9,6 +9,7 @@ public class TextScrollPane {
 	
 	private JScrollPane scrollPane;
 	
+	//----------ComboBoxFonts IS NEEDED TO ADD THE DEFAULT FONT FOR THE TEXTPANE------------
 	public TextScrollPane(ComboBoxFonts cbFont) {
 		
 		textPane = new JTextPane();
